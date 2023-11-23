@@ -1,0 +1,4 @@
+cluster_ES0.loc[:,'MType'] = 'E/S0'
+cluster_Sab.loc[:,'MType'] = 'Sab'
+cluster_Sbcd.loc[:,'MType'] = 'Sbcd'
+cluster_IrrSB.loc[:,'MType'] = 'Irr/SB'
