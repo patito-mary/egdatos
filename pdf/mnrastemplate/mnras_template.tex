@@ -102,15 +102,14 @@ $^{1}$Estudiante de Magister en Astronomia, Universidad de La Serena\\
 
 Follow the methods obtains from \citet[]{Balogh} with the data from
 \citet[]{Dressler}, the aim of this essay is replicate the same figures
-9 and 11 from the first paper mentioned with the data of the second, to understand how 
-the classification of Balogh is better in fuction to separete between star forming and passive galaxies.
+9 and 11 from the first paper mentioned with the data of the second, to understand how the classification of Balogh is better in fuction to separete between star forming and passive galaxies.
 \\
-\section{Method}
-One of the first thing that we do to understand the comparison is to compare the meta-data of the data with the aim to homogenize the tables.
-\\ 
-In the case of \citet{Dressler} we have that \textit{the EW of the $H\delta$  is negative when the line present \textbf{emission}} (see figure \ref{dresslertable}). In comparison, the description about this two line features in \citet{Balogh} is: \textit{... When the EW $[OIII]$ index is positive the line is in emission, while the EW $H\delta$ index is positive when the line is in \textbf{absorption}.}
+
+\section{Methods}
+One of the first thing that we do to understand the comparison is to compare the meta-data of the data with the aim to homogenize the tables. In the case of \citet{Dressler} we have: \textit{the EW of the $H\delta$  is negative when the line present \textbf{emission}} (see figure \ref{dresslertable}). In comparison, the description about this two line features in \citet{Balogh} is: \textit{... When the EW [O II] index is positive the line is in emission, while the EW $H\delta$ index is positive when the line is in \textbf{absorption}.}. This implies that the data for $H\delta$ from the \citet{Dressler} catalogue is the same in both catalogues,and [O II] needs to be multiplied by $-1$ to homogenize the data. Doing that, we replicate the fig. 9 and fig. 11 from the paper of \citet{Balogh} (see figure \ref{figsbaloghs}).
 \\
-This implies that the data for $H\delta$ from the \citet{Dressler} catalogue, need to be multiplied by $-1$ to homogenize the data. Doing that, we replicate the fig. 9 and fig. 11 from the paper of \citet{Balogh} (see figure \ref{figsbaloghs})
+
+Using a \texttt{python} libraries, we made the sames figures (see figure \ref{plotmio1} and figure \ref{plotmio2})
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{/home/patito/Documents/egdatos/tableparameters.png}
@@ -126,31 +125,30 @@ This implies that the data for $H\delta$ from the \citet{Dressler} catalogue, ne
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{//home/patito/Documents/egdatos/pdf/mnrastemplate/plotmio1.png}
-	\caption{Figure made to replicate the first panel of the figure \ref{figsbaloghs}, this show the relation between the EW of $O[III]$ and EW of $H\delta$}
+	\caption{Figure made to replicate the first panel of the figure \ref{figsbaloghs}, this show the relation between the EW of $O[II]$ and EW of $H\delta$}
+    \label{plotmio1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\columnwidth]{//home/patito/Documents/egdatos/pdf/mnrastemplate/plotmio2.png}
+	\caption{Figure made to replicate the second panel of the figure \ref{figsbaloghs}, this show the relation between the EW of $O[II]$ and EW of $H\delta$}
+    \label{plotmio2}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\columnwidth]{//home/patito/Documents/egdatos/pdf/mnrastemplate/creacionpropia.png}
+	\caption{This figure show the relation between EW of $O[II]$ vs D4000}
+    \label{plotcreado}
 \end{figure}
 
 
 
 
-Using a \texttt{python} libraries, we made the sames figures (see figure \ref{plotmio1} and figure \ref{plotmio2})
 
 
-\section{Conclusions}
 
-The last numbered section should briefly summarise what has been done, and describe
-the final conclusions which the authors draw from their work.
+\section{Analysis}
 
-\section*{Acknowledgements}
-
-The Acknowledgements section is not numbered. Here you can thank helpful
-colleagues, acknowledge funding agencies, telescopes and facilities used etc.
-Try to keep it short.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section*{Data Availability}
-
- 
-The inclusion of a Data Availability Statement is a requirement for articles published in MNRAS. Data Availability Statements provide a standardised format for readers to understand the availability of data underlying the research results described in the article. The statement may refer to original data generated in the course of the study or to third-party data analysed in the article. The statement should describe and provide means of access, where possible, by linking to the data or providing the required accession numbers for the relevant databases or DOIs.
 
 
 
@@ -175,16 +173,6 @@ The inclusion of a Data Availability Statement is a requirement for articles pub
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
-
-\appendix
-
-\section{Some extra material}
-
-If you want to present additional material which would interrupt the flow of the main paper,
-it can be placed in an Appendix which appears after the list of references.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 % Don't change these lines
 \bsp	% typesetting comment

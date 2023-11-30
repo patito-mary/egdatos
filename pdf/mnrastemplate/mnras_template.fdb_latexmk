@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex mnras_template"] 1701124630 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1701124766
+["bibtex mnras_template"] 1701374206 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1701374206
   "./mnras.bst" 1701128674 43376 8463aa2cc1948e346d5641ca59bb4619 ""
   "example.bib" 1701122845 1599 09dac0442eeab353776221b205f38803 ""
-  "mnras_template.aux" 1701124766 2439 b0479457b4e12460d30b462fd28d4ee9 "pdflatex"
+  "mnras_template.aux" 1701374206 3212 d4d4288a7688d1dd2b31aacad052483f "pdflatex"
   (generated)
   "mnras_template.bbl"
   "mnras_template.blg"
-["pdflatex"] 1701124765 "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1701124766
+["pdflatex"] 1701374206 "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1701374206
   "/etc/texmf/web2c/texmf.cnf" 1701119415 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi0900.600pk" 1701124741 29796 cb089c8babb4e10626db4bf9188d991f ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk" 1701121979 19852 9bff33d38bd9b525cec8063ff26e06da ""
@@ -21,7 +21,7 @@
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk" 1701121976 39096 beff23f72da00c25e4fb10ae9ab22a26 ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk" 1701121977 17492 efc97b8e64b1b9f5b5b295bcd10f689f ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk" 1701121976 9268 8a8d540d9571f37515b15238c210f2c8 ""
-  "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" 1701124765 7540 eae993feba0672502d655ab686675e6d ""
+  "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" 1701374205 6866 b552f1465e4e776b91190b50078981ab ""
   "/home/patito/Documents/egdatos/tableparameters.png" 1701123420 157729 623008b96eb77a0ffcd619a04ac2869e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi0900.tfm" 1136768653 3072 7ff1a6294a418a0283ec56a11878dc2c ""
@@ -123,13 +123,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1701121636 162899 515de6df2324cca4eba6407bef60e07c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1701121639 1435801 0f99d491966326f52babad5fbd4e52c3 ""
+  "creacionpropia.png" 1701355135 61160 91d8f7a25684bfd9666ec97d0573ec78 ""
   "imagecomparison.png" 1701124143 143471 46df528608b5175694edc32d7735abbd ""
   "mnras.cls" 1701128674 62657 f252e2c707372bfc3609684578d8db01 ""
-  "mnras_template.aux" 1701124766 2439 b0479457b4e12460d30b462fd28d4ee9 "pdflatex"
-  "mnras_template.bbl" 1701124630 1678 432e99a814716cb5ef3837cdfb97cf6d "bibtex mnras_template"
-  "mnras_template.out" 1701124766 477 a74b0771b3829a860cd0b1de823b9946 "pdflatex"
-  "mnras_template.tex" 1701124765 7540 eae993feba0672502d655ab686675e6d ""
-  "plotmio1.png" 1701124408 71402 a2c9bd830eb65fcc717d885835f8fa0f ""
+  "mnras_template.aux" 1701374206 3212 d4d4288a7688d1dd2b31aacad052483f "pdflatex"
+  "mnras_template.bbl" 1701374206 1678 432e99a814716cb5ef3837cdfb97cf6d "bibtex mnras_template"
+  "mnras_template.out" 1701374206 322 81bcfffb553da53388abdab525a40123 "pdflatex"
+  "mnras_template.tex" 1701374205 6866 b552f1465e4e776b91190b50078981ab ""
+  "plotmio1.png" 1701353652 66198 a348de8c7b9040ce1dc5832c75b760dc ""
+  "plotmio2.png" 1701353665 63912 f5f495946e2064b20317cd312b3590ca ""
   (generated)
   "mnras_template.aux"
   "mnras_template.log"
