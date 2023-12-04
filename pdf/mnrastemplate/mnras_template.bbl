@@ -30,5 +30,13 @@
   {10.26093/cds/vizier.21220051}, \href
   {https://ui.adsabs.harvard.edu/abs/1999yCat..21220051D} {p. J/ApJS/122/51}
 
+\bibitem[\protect\citeauthoryear{{Poggianti}, {Smail}, {Dressler}, {Couch},
+  {Barger}, {Butcher}, {Ellis}  \& {Oemler}}{{Poggianti}
+  et~al.}{1999}]{poggianti99}
+{Poggianti} B.~M.,  {Smail} I.,  {Dressler} A.,  {Couch} W.~J.,  {Barger}
+  A.~J.,  {Butcher} H.,  {Ellis} R.~S.,   {Oemler} Augustus J.,  1999, \mn@doi
+  [\apj] {10.1086/307322}, \href
+  {https://ui.adsabs.harvard.edu/abs/1999ApJ...518..576P} {518, 576}
+
 \makeatother
 \end{thebibliography}

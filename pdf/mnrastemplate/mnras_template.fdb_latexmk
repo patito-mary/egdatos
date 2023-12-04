@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex mnras_template"] 1701727265 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1701727266
+["bibtex mnras_template"] 1701733086 "mnras_template.aux" "mnras_template.bbl" "mnras_template" 1701733087
   "./mnras.bst" 1701128674 43376 8463aa2cc1948e346d5641ca59bb4619 ""
-  "example.bib" 1701122845 1599 09dac0442eeab353776221b205f38803 ""
-  "mnras_template.aux" 1701727266 4754 c9d32d664be31d3137cc0535007d6bb6 "pdflatex"
+  "example.bib" 1701733085 3773 9fca3ee9c58cab6cfbdb20df32f35128 ""
+  "mnras_template.aux" 1701733086 5295 d456dfd450ff409db422685187f57ede "pdflatex"
   (generated)
   "mnras_template.bbl"
   "mnras_template.blg"
-["pdflatex"] 1701727265 "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1701727266
+["pdflatex"] 1701733086 "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" "mnras_template.pdf" "mnras_template" 1701733087
   "/etc/texmf/web2c/texmf.cnf" 1701119415 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi0900.600pk" 1701124741 29796 cb089c8babb4e10626db4bf9188d991f ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk" 1701121979 19852 9bff33d38bd9b525cec8063ff26e06da ""
@@ -21,7 +21,7 @@
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk" 1701121976 39096 beff23f72da00c25e4fb10ae9ab22a26 ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt0900.600pk" 1701121977 17492 efc97b8e64b1b9f5b5b295bcd10f689f ""
   "/home/patito/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk" 1701121976 9268 8a8d540d9571f37515b15238c210f2c8 ""
-  "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" 1701727264 8745 f9ab70fe7563a5476f419a95abd9a0ba ""
+  "/home/patito/Documents/egdatos/pdf/mnrastemplate/mnras_template.tex" 1701733013 12199 c2854c884a629aa3b1e3e720877e6cd5 ""
   "/home/patito/Documents/egdatos/tableparameters.png" 1701123420 157729 623008b96eb77a0ffcd619a04ac2869e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi0900.tfm" 1136768653 3072 7ff1a6294a418a0283ec56a11878dc2c ""
@@ -127,10 +127,10 @@
   "imagecomparison.png" 1701124143 143471 46df528608b5175694edc32d7735abbd ""
   "membergalaxies.png" 1701726314 28228 3d48c85912cbe14f421a093d259bf481 ""
   "mnras.cls" 1701128674 62657 f252e2c707372bfc3609684578d8db01 ""
-  "mnras_template.aux" 1701727266 4754 c9d32d664be31d3137cc0535007d6bb6 "pdflatex"
-  "mnras_template.bbl" 1701727265 1678 432e99a814716cb5ef3837cdfb97cf6d "bibtex mnras_template"
-  "mnras_template.out" 1701727266 536 6e65df0d6eaf5c8f7d0bb84b8de7ee25 "pdflatex"
-  "mnras_template.tex" 1701727264 8745 f9ab70fe7563a5476f419a95abd9a0ba ""
+  "mnras_template.aux" 1701733086 5295 d456dfd450ff409db422685187f57ede "pdflatex"
+  "mnras_template.bbl" 1701733086 2097 f4d92fb8e84bfbb4fc2cd1cc0212e2a5 "bibtex mnras_template"
+  "mnras_template.out" 1701733086 915 b20c6a79db2a25c43e619c03734184bf "pdflatex"
+  "mnras_template.tex" 1701733013 12199 c2854c884a629aa3b1e3e720877e6cd5 ""
   "morfologicoHdeltad4000.png" 1701722663 39426 29bb894e97a3636234fecc48761928cd ""
   "morfologicohdeltaoii.png" 1701722618 40138 893ca6b57b9651aa4e0e35166f448ebe ""
   "plotmio1.png" 1701353652 66198 a348de8c7b9040ce1dc5832c75b760dc ""
