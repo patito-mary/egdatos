@@ -64,7 +64,7 @@
 
 % Title of the paper, and the short title which is used in the headers.
 % Keep the title short and informative.
-\title[1 homework LLL]{Homework LLL}
+\title[Extragalactic Astronomy]{Balogh vs Dressler: Spectral classification}
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
@@ -76,7 +76,7 @@ $^{1}$Estudiante de Magister en Astronomia, Universidad de La Serena\\
 }
 
 % These dates will be filled out by the publisher
-\date{Mon, Nov 27}
+\date{Mon, Dic 4}
 
 % Enter the current year, for the copyright statements etc.
 \pubyear{2023}
@@ -106,10 +106,10 @@ Follow the methods obtains from \citet[]{Balogh} with the data from
 \\
 
 \section{Methods}
-One of the first thing that we do to understand the comparison is to compare the meta-data of the data with the aim to homogenize the tables. In the case of \citet{Dressler} we have: \textit{the EW of the $H\delta$  is negative when the line present \textbf{emission}} (see figure \ref{dresslertable}). In comparison, the description about this two line features in \citet{Balogh} is: \textit{... When the EW [O II] index is positive the line is in emission, while the EW $H\delta$ index is positive when the line is in \textbf{absorption}.}. This implies that the data for $H\delta$ from the \citet{Dressler} catalogue is the same in both catalogues,and [O II] needs to be multiplied by $-1$ to homogenize the data. Doing that, we replicate the fig. 9 and fig. 11 from the paper of \citet{Balogh} (see figure \ref{figsbaloghs}).
+One of the first thing that we do to understand the comparison between the two jobs, is to review the meta-data of the data to homogenize the tables. In the case of \citet{Dressler} we have: \textit{the EW of the $H\delta$  is negative when the line present \textbf{emission}} (see figure \ref{dresslertable}). In comparison, the description about this two line features in \citet{Balogh} is: \textit{... When the EW [O II] index is positive the line is in emission, while the EW $H\delta$ index is positive when the line is in \textbf{absorption}.}. This implies that the data for $H\delta$ from the \citet{Dressler} catalogue is the same in both catalogues,and [O II] needs to be multiplied by $-1$ to homogenize the data. Doing that, we replicate the fig. 9 and fig. 11 from the paper of \citet{Balogh} (see figure \ref{figsbaloghs}).
 \\
 
-Using a \texttt{python} libraries, we made the sames figures (see figure \ref{plotmio1} and figure \ref{plotmio2})
+Using a \texttt{python} libraries, we made the sames figures (see figure \ref{plotmio1} and figure \ref{plotmio2}) 
 
 \begin{figure}
 	\includegraphics[width=\columnwidth]{/home/patito/Documents/egdatos/tableparameters.png}
@@ -142,13 +142,34 @@ Using a \texttt{python} libraries, we made the sames figures (see figure \ref{pl
 \end{figure}
 
 
+\begin{figure}
+	\includegraphics[width=\columnwidth]{///home/patito/Documents/egdatos/pdf/mnrastemplate/morfologicohdeltaoii.png}
+	\caption{Figure to replicate the second panel of the figure \ref{figsbaloghs}, were replacing the morphology of the galaxies in function to have the sames of \citet{Balogh}}.
+	\label{plotmorph1}
+\end{figure}
 
+\begin{figure}
+	\includegraphics[width=\columnwidth]{//home/patito/Documents/egdatos/pdf/mnrastemplate/morfologicoHdeltad4000.png}
+	\caption{Figure made to replicate the first panel of the figure \ref{figsbaloghs}, were replacing the morphology of the galaxies in function to have the sames of \citet{Balogh}}
+	\label{plotmorph2}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\columnwidth]{//home/patito/Documents/egdatos/pdf/mnrastemplate/membergalaxies.png}
+	\caption{Histogram for the count of galaxies per cluster}
+	\label{histogram}
+\end{figure}
 
 
 
 
 \section{Analysis}
+We made the sames graphics from \citet{Balogh} ussing the data provided by \citet{Dressler}, but with the aim to do the same morphological classification, we depure the data, excluding the galaxies from the \textit{field} and unified the morphological classification from \citet{Dressler}, i.e. we use the column of \textit{MType} in function to obtain \textit{E/S0, Sab, Sbcd, Irr/SB}, see figure \ref{plotmorph1} and \ref{plotmorph2}. And also, we made the plots separate by cluster. \\
 
+In two cases, we can see a poorly stadistic. In order to confirm, we made the count of number of galaxies per cluster in the figure \ref{histogram}. It is important understand the context, this two papers was the first in the area of the spectral classification, but the data was be used carefully. \\
+
+\subsection{H$\delta$ and the stellar populations}
+H$\delta$ is an spectral line of absorption related with the presence of the stars A and F
 
 
 

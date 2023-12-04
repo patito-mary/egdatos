@@ -1,4 +1,10 @@
-cluster_ES0.loc[:,'MType'] = 'E/S0'
-cluster_Sab.loc[:,'MType'] = 'Sab'
-cluster_Sbcd.loc[:,'MType'] = 'Sbcd'
-cluster_IrrSB.loc[:,'MType'] = 'Irr/SB'
+'Cl 0303+17', 
+'Cl 0939+47', 
+'Cl 1447+26', 
+'Cl 1601+42',
+'3C295     ',
+'A370      ', 
+'Cl 0024+16', 
+'Cl 0016+16',
+'Cl 0412-65', 
+'Cl 0054-27'
